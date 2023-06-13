@@ -1,0 +1,21 @@
+{
+  "name": "Theme",
+  "displayName": "Grey Pallete (clean)",
+  "description": "A clean theme without borders and nice syntax",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Grey clean",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Grey clean-color-theme.json"
+      }
+    ]
+  }
+}
